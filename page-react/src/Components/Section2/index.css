@@ -1,0 +1,38 @@
+#section2{
+  background-color: #454545;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 7vw;
+  justify-content: space-between;
+}
+
+#section2 img{
+  width: 4%;
+  cursor:pointer;
+}
+
+#section2 section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45vw;
+  margin-bottom: 10%;
+}
+
+@media only screen and (max-device-width: 900px) {
+  #section2{
+    height: 80vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #section2 img{
+    width: 17vw;
+  }
+}

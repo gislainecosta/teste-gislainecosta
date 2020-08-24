@@ -1,0 +1,53 @@
+#accordion{
+    width: 100%;
+    color: #6f6f6f;
+    margin: 0;
+    padding: 0;
+}
+
+#image-accordion{
+    border: 10px solid #6f6f6f; 
+    width: 324px;
+    height: 216px;
+    margin: -2% 3% 0 0;
+}
+
+#icon-accordion{
+    height: 1.3vw;
+    width: 0.8vw;
+}
+
+#accordion h4{
+    margin: 0 85% 0 2%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title-gray{
+    border: none;
+    color: #6f6f6f
+}
+
+.title-white{
+    border: none;
+    color: white
+}
+
+@media only screen and (max-device-width: 900px) {
+    #image-accordion{
+        border: 10px solid #6f6f6f; 
+        width: 260px;
+        height: 180px;
+        margin: 2% 0 5% 0;
+    }
+
+    #accordion h4{
+        font-size: 16px;
+        margin: 0 57% 0 5%;
+    }
+
+    #icon-accordion{
+        height: 18px;
+        width: 12px;
+    }
+}

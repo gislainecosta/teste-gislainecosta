@@ -1,0 +1,34 @@
+#section4{
+    background-color: #bebebe;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 7%;
+    border-radius: 20px;
+}
+
+#section4 > section:first-of-type{
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+#section4 > section{
+    width: 100%;
+}
+
+#section4 > section:last-of-type{
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+}
+
+@media only screen and (max-device-width: 900px) {
+    #section4 > section:first-of-type{
+    border-radius: 10px 10px 0 0;
+    }
+
+    #section4 > section:last-of-type{
+        border-radius: 0 0 10px 10px;
+    }
+
+}
