@@ -35,6 +35,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
@@ -581,12 +582,11 @@ footer{
   }
 
   #section5{
-    background:linear-gradient(160deg, #6F6F6F 30%, #6F6F6F 50%, #434343 50%, #434343 110%);
+    background:linear-gradient(122deg, #6F6F6F 30%, #6F6F6F 50%, #434343 50%, #434343 110%);
     height: 90vh;
     align-items: center;
     justify-content: space-between;
   }
-    
 
   #section5 button{
     font-size: 20px;

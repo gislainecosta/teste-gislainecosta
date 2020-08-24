@@ -117,9 +117,13 @@ input:-webkit-autofill:focus {
     input, textarea{
         height: 14vh;
     }
-    
+
+    #email{
+        width: 60%;
+    }
+
     #section5{
-        background:linear-gradient(160deg, #6F6F6F 30%, #6F6F6F 50%, #434343 50%, #434343 110%);
+        background:linear-gradient(121deg, #6F6F6F 30%, #6F6F6F 50%, #434343 50%, #434343 110%);
         height: 90vh;
         align-items: center;
         justify-content: space-between;
